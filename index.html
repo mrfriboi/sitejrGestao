@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width initial-scale=1.0">
+        <title>JR Gestão Gastrônomica</title>
+        <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&family=Open+Sans:wght@300;400;700&display=swap" rel="stylesheet">
+        <link href="css/reset.css" rel="stylesheet">
+        <link href="css/base.css" rel="stylesheet">
+        <link href="css/cabecalho.css" rel="stylesheet">
+        <link href="css/chamada.css" rel="stylesheet">
+        <link href="css/destaques.css" rel="stylesheet">
+        <link href="css/diferenciais.css" rel="stylesheet">
+        <link href="css/sobre.css" rel="stylesheet">
+        <link href="css/planos.css" rel="stylesheet">
+        <link href="css/contato.css" rel="stylesheet">
+        <link href="css/institucional.css" rel="stylesheet">
+        <link href="css/rodape.css" rel="stylesheet">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    </head>
+    <body>
+        <!-- menu nav -->
+        <header class="cabecalho containerr">
+            <img src="img/logoJR.svg" alt="Logo da Apeperia" class="cabecalho__logo">
+            <nav class="cabecalho__navegacao">
+                <ul style="padding-left:0;">
+                    <li class="cabecalho__link"><a href="#"  style="text-decoration: none; color: white;" >Sobre</a></li>
+                    <li class="cabecalho__link"><a href="#" style="text-decoration: none; color: white;">Planos</a></li>
+                    <li class="cabecalho__link"><a href="#" style="text-decoration: none; color: white;">Blog</a></li>
+                    <li class="cabecalho__link"><a href="#" style="text-decoration: none; color: white;">Destaques</a></li>
+                    <li class="cabecalho__link"><a href="#" style="text-decoration: none; color: white;">Institucional</a></li>
+                    <li class="cabecalho__link"><a href="#" style="text-decoration: none; color: white;">Contato</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <!-- principal -->
+            <section class="chamada containerr">
+                <h1 class="chamada__titulo">Lorem ipsum dolor sit amet consectetur adipisicing elit.</h1>
+                <p class="chamada__texto">Lorem ipsum dolor sit amet consectetur, adipisicing elit. At laboriosam ducimus nulla pariatur perferendis nihil, cum accusantium quo et earum?</p>
+                <a href="#" class="chamada__botao botao" style="text-decoration: none; color: white;">Conheça os planos</a>
+            </section>
+            <!-- principal --> 
+            <!-- <section class="destaques containerr">
+                <h2 class="destaques__titulo">Destaques</h2>
+                <a href="#" style="text-decoration: none; color: #212529;">
+                    <figure class="destaques__painel">
+                        <img src="img/comecando-criar-logotipo.png" alt="Painel do post sobre criação de logotipo" class="destaques__painel-imagem">
+                        <figcaption class="destaques__painel-texto">Conheça as primeiras etapas para a criação de um logotipo</figcaption>
+                    </figure>
+                </a>
+                <a href="#" style="text-decoration: none; color: #212529;">
+                    <figure class="destaques__painel">
+                        <img src="img/dicas-fotografia.png" alt="Painel do post sobre fotografia com celular" class="destaques__painel-imagem">
+                        <figcaption class="destaques__painel-texto">Veja dicas de como fotografar usando seu celular</figcaption>
+                    </figure>
+                </a>
+                <a href="#" class="destaques__botao botao" style="text-decoration: none; color: var(--vermelho-forte);">Receber destaques por email</a>
+            </section> -->
+
+
+
+
+
+            <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="false">
+                <div class="carousel-indicators">
+                  <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                  <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                  <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img src="/img/dicas-acessibilidade.jpg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                      <h5>First slide label</h5>
+                      <p>Some representative placeholder content for the first slide.</p>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <img src="/img/dicas-acessibilidade.jpg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                      <h5>Second slide label</h5>
+                      <p>Some representative placeholder content for the second slide.</p>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <img src="/img/dicas-acessibilidade.jpg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                      <h5>Third slide label</h5>
+                      <p>Some representative placeholder content for the third slide.</p>
+                    </div>
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+
+
+
+
+
+            <!-- tempo foco especialistas -->
+            <section class="diferenciais containerr">
+                <ul class="diferenciais__lista">
+                    <li class="diferenciais__item diferenciais__item--tempo">
+                        <h2 class="item__titulo">Tempo</h2>
+                        <p class="item__texto">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum dolores minima nisi doloribus itaque sequi porro.</p>
+                    </li>
+                    <li class="diferenciais__item diferenciais__item--foco">
+                        <h2 class="item__titulo">Foco</h2>
+                        <p class="item__texto">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum dolores minima nisi doloribus itaque sequi porro.</p>
+                    </li>
+                    <li class="diferenciais__item diferenciais__item--especialistas">
+                        <h2 class="item__titulo">Especialistas</h2>
+                        <p class="item__texto">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum dolores minima nisi doloribus itaque sequi porro.</p>
+                    </li>
+                </ul>
+            </section>
+            <!-- sobre -->
+            <!-- <section class="sobre containerr">
+                <div class="sobre__conteudo">
+                    <h2 class="sobre__titulo">Sobre</h2>
+                    <p class="sobre__texto">Criamos aplicativos personalizados para <strong class="sobre__texto--destaque">todas as pessoas</strong>!</p>
+                    <p class="sobre__texto">
+                        A manutenção de um aplicativo não pode ser um custo extra para o cliente, Na Apeperia você assina nosso serviço e a manutenção já está inclusa. Assim, você não se preocupa com manutenção, é tudo por nossa conta.
+                    </p>
+                    <p class="sobre__texto sobre__texto--destaque sobre__texto--divisao">
+                        Conte com uma equipe especializada e exclusiva pra projetos incríveis em qualquer plataforma.
+                    </p>
+                    <ul class="sobre__plataformas">
+                        <li><img src="img/android.png" alt="Ícone do Android"></li>
+                        <li><img src="img/blackberry.png" alt="Ícone da Blackberry"></li>
+                        <li><img src="img/apple.png" alt="Ícone da Apple"></li>
+                        <li><img src="img/windowsphone.png" alt="Ícone da Microsoft"></li>
+                    </ul>
+                    <p class="sobre__texto">Desenvolvemos aplicativos para todas as plataformas</p>
+                </div>
+                <img src="img/sobre-apeperia.png" alt="Sobre a Apeperia" class="sobre__imagem">
+            </section> -->
+
+
+
+            <section class="sobre containerr">
+                <div class="sobre__conteudo">
+                    <h2 class="sobre__titulo">O QUE PODEMOS FAZER PELO SEU NEGÓCIO</h2>
+                    <p class="sobre__texto">Criamos aplicativos personalizados para <strong class="sobre__texto--destaque">Diminua o desperdício e aumente seu lucro</strong>!</p>
+                    <p class="sobre__texto">
+                        Somos um grupo de especialistas em gestão com experiências em diferentes áreas do mercado gastronômico. Estamos unidos para desenvolver a gestão ideal para o seu negócio!
+                    </p>
+                    <p class="sobre__texto sobre__texto--destaque sobre__texto--divisao">
+                        Nossa missão é proporcionar aos empresários do ramo gastronômico uma visão clara e prática sobre gestão, auxiliando a diminuir os desperdícios e aumentar a margem de lucro, tornando suas empresas sustentáveis e com capacidade de crescimento.
+                    </p>
+                    <p class="sobre__texto sobre__texto--destaque sobre__texto--divisao">
+                        Utilizamos a gestão integrada e temos como base um conjunto de práticas do método GASS (Gastronomy  Smart System), O método GASS já foi implantado em centenas de restaurantes e negócios gastronômicos, no Brasil e em Portugal.
+                    </p>
+                    <p class="sobre__texto">Aumente a produtividade e motive sua equipe</p>
+                </div>
+                <img src="img/negociosgastronomicos-box.png" alt="Sobre a Apeperia" class="sobre__imagem">
+            </section>
+
+
+
+
+
+            <!-- planos -->
+            <section class="planos containerr">
+                <h2 class="planos__titulo">Planos</h2>
+                <ul class="planos__cartoes" style="padding-left: 0;">
+                    <li class="cartao cartao--start">
+                        <h3 class="cartao__titulo">Start</h3>
+                        <article class="cartao__conteudo">
+                            <p class="cartao__preco"><em>R$ 500</em></p>
+                            <p class="cartao__texto">Lorem ipsum dolor.</p>
+                            <p class="cartao__texto">Lorem ipsum dolor.</p>
+                            <p class="cartao__texto">Lorem ipsum dolor.</p>
+                            <a href="" id="botao_start" class="cartao__botao cartao__botao--ultra botao" style="text-decoration: none; color: #0dcaf0; border-color: #0dcaf0;">Contratar plano</a>
+                        </article>
+                    </li>
+                    <li class="cartao cartao--ultra">
+                        <h3 class="cartao__titulo">Ultra</h3>
+                        <article class="cartao__conteudo">
+                            <p class="cartao__preco"><em>R$ 1500</em></p>
+                            <p class="cartao__texto">Lorem ipsum dolor.</p>
+                            <p class="cartao__texto">Lorem ipsum dolor.</p>
+                            <p class="cartao__texto">Lorem ipsum dolor.</p>
+                            <p class="cartao__texto">Lorem ipsum dolor.</p>
+                            <a href="" class="cartao__botao cartao__botao--ultra botao" style="text-decoration: none; color: #6f42c1; border-color: #6f42c1;" id="botao_ultra" >Contratar plano</a>
+                        </article>
+                    </li>
+                    <li class="cartao cartao--mega">
+                        <h3 class="cartao__titulo">Mega</h3>
+                        <p class="cartao__preco"><em>R$ 1000</em></p>
+                        <article class="cartao__conteudo">
+                            <p class="cartao__texto">Lorem ipsum dolor.</p>
+                            <p class="cartao__texto">Lorem ipsum dolor.</p>
+                            <p class="cartao__texto">Lorem ipsum dolor.</p>
+                            <a href="" 
+                            id="botao_mega"
+                            class="cartao__botao cartao__botao--ultra botao" style="text-decoration: none; color: red; border-color: red;">Contratar plano</a>
+                        </article>
+                    </li>
+                </ul>
+            </section>
+            <!-- contato -->
+            <section class="contato containerr">
+                <h2 class="contato__titulo">Contato</h2>
+                <p>Entre em contato com a gente</p>
+                <div class="msg_contato">
+                    <div class="msg_conatato">
+                        <textarea cols="30" rows="1" type="text" placeholder="Digite a sua mensagem..."style="text-decoration: none; color: #212529;" id="input"class="contato__botao botao contato_input"></textarea>
+                    </div>
+                    <div>
+                         <!-- <a class="contato__botao botao" style="text-decoration: none; color: #212529;">Entre em contato</a> -->
+                         <button class="contato__botao botao" id="botao" style="text-decoration: none; color: white;">Enviar Whatsapp</button>
+                    </div>     
+                </div>
+            </section>
+            <!--  -->
+            <section class="institucional containerr">
+                <h2 class="institucional__titulo">Institucional</h2>
+                <div class="institucional__conteudo">
+                    <div class="institucional__informacoes">
+                        <p class="institucional__descricao">Um pouco mais sobre a JR Gestão Gastrônomica</p>
+                    <address class="institucional__endereco">
+                        Benfica</br>
+                        Rio de Janeiro, RJ
+                        <article class="institucional__contato">
+                            <p><a href="tel:+551155712751" class="institucional__contato-telefone" style="text-decoration: none; color: #212529;">(21) 99549-7141</a> ou <a href="mailto:email@email.com.br" class="institucional__contato-email" style="text-decoration: none; color: #212529;">email@email.com.br</a></p>
+                        </article>
+                    </address>
+                    </div>
+                    <video id="video" src="img/take vídeo curto Rio de Janeiro Corcovado Cristo Redentor Baía de Guanabara pão de açúcar flamengo.mp4" class="institucional__video" controls></video>
+                </div>
+            </section>
+        </main>
+        <!-- footer -->
+        <footer class="rodape containerr">
+            <img src="img/logoJR.svg" alt="Logo da Apeperia" class="rodape__logo">
+            <ul class="rodape__social" style="padding-left: 0;">
+                <li><a href="#" class="rodape__midia"><img src="img/facebook.png" alt="Ícone do Facebook"></a></li>
+                <li><a href="#" class="rodape__midia"><img src="img/icons8-whatsapp-42.png" alt="Ícone do twitter"></a></li>
+                <li><a href="#" class="rodape__midia"><img src="img/instagram.png" alt="Ícone do Instagram"></a></li>
+            </ul>
+            <nav>
+                <ul class="rodape__navegacao" style="padding-left: 0;">
+                    <li class="rodape__link"><a href="#"style="text-decoration: none; color: white";>Sobre</a></li>
+                    <li class="rodape__link"><a href="#"style="text-decoration: none; color: white";>Planos</a></li>
+                    <li class="rodape__link"><a href="#"style="text-decoration: none; color: white";>Blog</a></li>
+                    <li class="rodape__link"><a href="#"style="text-decoration: none; color: white";>Destaques</a></li>
+                    <li class="rodape__link"><a href="#"style="text-decoration: none; color: white";>Institucional</a></li>
+                    <li class="rodape__link"><a href="#"style="text-decoration: none; color: white";>Contato</a></li>
+                </ul>
+            </nav>
+        </footer>
+        <!-- JavaScript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+<script src="/javascript/main.js"></script>
+    </body>
+</html>
